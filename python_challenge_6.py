@@ -48,7 +48,7 @@ print("Files opened: " + str(count))
 # because zipped files can have comments attached to them.
 # This means that we need to extract those comments
 ############################################################
-zip_file = zipfile.ZipFile( "channel.zip" )
+zip_file = zipfile.ZipFile( "challenge_6_files\\channel.zip" )
 
 comments = []
 
