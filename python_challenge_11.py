@@ -9,19 +9,19 @@
 from PIL import Image
 
 image = Image.open("challenge_11_cave.jpg")
-# size = width, height = image.size
+(width,height) = image.size
 
-width = image.size[0]
-height = image.size[1]
+even_image = Image.new('RGB', (width//2, height//2))
+odd_image = Image.new('RGB', (width//2, height//2))
 
-answer_image = Image.new('RGB', (width, height))
-
-for x in range(0,width,2):
-    for y in range(0,height,2):
+for x in range(width):
+    for y in range(height):
         even_color = image.getpixel((x,y))
         odd_color = image.getpixel((x+1,y+1))
+        if (x+y)%2 == 1:
+            odd_image.putpixel((x // 2, y // 2), odd_color)
+        else:
+            even_image.putpixel((x // 2, y // 2), even_color)
 
-        answer_image.putpixel((x,y), even_color)
-        answer_image.putpixel((x,y), odd_color)
-
-answer_image.save("challenge_11_answer.jpg")
+even_image.save("challenge_11_answer_even.jpg")
+odd_image.save("challenge_11_answer_odd.jpg")
