@@ -1,0 +1,10 @@
+http://wiki.pythonchallenge.com/index.php?title=Level1:Main_Page
+http://wiki.pythonchallenge.com/index.php?title=Level2:Main_Page
+http://wiki.pythonchallenge.com/index.php?title=Level3:Main_Page
+http://wiki.pythonchallenge.com/index.php?title=Level4:Main_Page
+http://wiki.pythonchallenge.com/index.php?title=Level5:Main_Page
+http://wiki.pythonchallenge.com/index.php?title=Level6:Main_Page
+http://wiki.pythonchallenge.com/index.php?title=Level7:Main_Page
+http://wiki.pythonchallenge.com/index.php?title=Level8:Main_Page
+http://wiki.pythonchallenge.com/index.php?title=Level9:Main_Page
+http://wiki.pythonchallenge.com/index.php?title=Level10:Main_Page
