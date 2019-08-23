@@ -1,6 +1,6 @@
 # http://www.pythonchallenge.com/pc/return/good.html
 
-# # Steps i used to solve challenge:
+# Steps i used to solve challenge:
 # 1. went to page source and saw hint "first+second=?" followed by two lists
 # 2. Since the lists were different lengths it wouldnt make sence to pair them
 #    across lists so i thought it made more sence to add them all to one list
