@@ -8,3 +8,4 @@ http://wiki.pythonchallenge.com/index.php?title=Level7:Main_Page
 http://wiki.pythonchallenge.com/index.php?title=Level8:Main_Page
 http://wiki.pythonchallenge.com/index.php?title=Level9:Main_Page
 http://wiki.pythonchallenge.com/index.php?title=Level10:Main_Page
+http://wiki.pythonchallenge.com/index.php?title=Level11:Main_Page
