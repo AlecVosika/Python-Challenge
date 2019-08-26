@@ -44,4 +44,4 @@ for i in range(0, len(all_dots), 2):
 
     answer_image.putpixel((x,y), (255,255,255,255))
 
-answer_image.save("challenge_8_answer.png")
+answer_image.save("challenge_9_answer.png")

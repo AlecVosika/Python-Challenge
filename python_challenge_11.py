@@ -10,12 +10,12 @@ from PIL import Image
 
 image = Image.open("challenge_11_cave.jpg")
 (width,height) = image.size
-
+print(image.size)
 even_image = Image.new('RGB', (width//2, height//2))
 odd_image = Image.new('RGB', (width//2, height//2))
 
-for x in range(width):
-    for y in range(height):
+for x in range(width-1):
+    for y in range(height-1):
         even_color = image.getpixel((x,y))
         odd_color = image.getpixel((x+1,y+1))
         if (x+y)%2 == 1:
